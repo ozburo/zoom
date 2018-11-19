@@ -10,7 +10,7 @@ package zoom
 import (
 	"fmt"
 
-	"github.com/garyburd/redigo/redis"
+	"github.com/gomodule/redigo/redis"
 )
 
 // Transaction is an abstraction layer around a Redis transaction.

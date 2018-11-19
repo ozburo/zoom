@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/garyburd/redigo/redis"
+	"github.com/gomodule/redigo/redis"
 )
 
 // scanModel iterates through fieldValues, converts each value to the correct type, and

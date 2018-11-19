@@ -11,7 +11,7 @@ package zoom
 import (
 	"testing"
 
-	"github.com/garyburd/redigo/redis"
+	"github.com/gomodule/redigo/redis"
 )
 
 // Test that the redis ignore struct tag causes a field to be ignored.

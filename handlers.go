@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/garyburd/redigo/redis"
+	"github.com/gomodule/redigo/redis"
 )
 
 // ReplyHandler is a function which does something with the reply from a Redis
-// command or script. See https://godoc.org/github.com/garyburd/redigo/redis
+// command or script. See https://godoc.org/github.com/gomodule/redigo/redis
 // for a description of the concrete types for reply.
 type ReplyHandler func(reply interface{}) error
 

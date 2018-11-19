@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/garyburd/redigo/redis"
+	"github.com/gomodule/redigo/redis"
 )
 
 // query represents a query which will retrieve some models from

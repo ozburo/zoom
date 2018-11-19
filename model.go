@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/garyburd/redigo/redis"
+	"github.com/gomodule/redigo/redis"
 )
 
 // RandomID can be embedded in any model struct in order to satisfy

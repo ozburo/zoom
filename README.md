@@ -135,7 +135,7 @@ import (
 )
 ```
 
-Then, you must create a new pool with 
+Then, you must create a new pool with
 [`NewPool`](http://godoc.org/github.com/albrow/zoom/#NewPool). A pool represents
 a pool of connections to the database. Since you may need access to the pool in
 different parts of your application, it is sometimes a good idea to declare a
@@ -706,7 +706,7 @@ changing the database.
 
 Read more about:
 - [Redis Commands](http://redis.io/commands)
-- [Redigo](https://github.com/garyburd/redigo), the Redis Driver used by Zoom
+- [Redigo](https://github.com/gomodule/redigo), the Redis Driver used by Zoom
 - [`ReplyHandler`s provided by Zoom](https://godoc.org/github.com/albrow/zoom)
 - [How Zoom works Under the Hood](https://github.com/albrow/zoom/wiki/Under-the-Hood)
 
@@ -720,7 +720,7 @@ To run the tests, make sure you're in the root directory for Zoom and run:
 
 ```
 go test
-```   
+```
 
 If everything passes, you should see something like:
 
@@ -745,7 +745,7 @@ To run the benchmarks, make sure you're in the root directory for the project an
 
 ```
 go test -run=none -bench .
-```   
+```
 
 The `-run=none` flag is optional, and just tells the test runner to skip the tests and run only the benchmarks
 (because no test function matches the pattern "none"). You can also use the same flags as above to change the

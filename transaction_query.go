@@ -1,6 +1,6 @@
 package zoom
 
-import "github.com/garyburd/redigo/redis"
+import "github.com/gomodule/redigo/redis"
 
 // TransactionQuery represents a query which will be run inside an existing
 // transaction. A TransactionQuery may consist of one or more query modifiers

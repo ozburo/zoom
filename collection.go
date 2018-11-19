@@ -14,7 +14,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/garyburd/redigo/redis"
+	"github.com/gomodule/redigo/redis"
 )
 
 var collections = list.New()

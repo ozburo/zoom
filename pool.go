@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/garyburd/redigo/redis"
+	"github.com/gomodule/redigo/redis"
 )
 
 // Pool represents a pool of connections. Each pool connects
@@ -170,7 +170,7 @@ func NewPoolWithOptions(options PoolOptions) *Pool {
 
 // NewConn gets a connection from the pool and returns it.
 // It can be used for directly interacting with the database. See
-// http://godoc.org/github.com/garyburd/redigo/redis for full documentation
+// http://godoc.org/github.com/gomodule/redigo/redis for full documentation
 // on the redis.Conn type. You must call Close on any connections after you are
 // done using them. Failure to call Close can cause a resource leak.
 func (p *Pool) NewConn() redis.Conn {
